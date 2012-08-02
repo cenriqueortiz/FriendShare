@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GeneralTheme" >
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/darkgray</item>
+    </style>
+    
+    <style name="SplashScreenTheme" >
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/darkgray</item>
+    </style>        
+</resources> 

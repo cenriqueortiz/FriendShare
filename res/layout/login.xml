@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="10dp"
+	android:scrollbars="horizontal">
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/please_login"
+        android:textSize="18.0sp"
+        android:visibility="gone"
+         />
+    
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/username_label"
+	    android:layout_marginLeft="5dp"
+		android:padding="10dp"
+        android:visibility="gone"
+		/>
+
+	<EditText
+		android:id="@+id/login_username_textbox"
+		android:singleLine="true"
+		android:layout_width="220dp"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/username_enter_hint"
+		android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone"
+		/>
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:padding="10dp"
+	    android:text="@string/password_label"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone"
+	    />
+
+	<EditText
+		android:id="@+id/login_password_textbox"
+		android:inputType="textPassword"
+		android:singleLine="true"
+		android:layout_width="220dp"
+	    android:layout_height="wrap_content"
+        android:hint="@string/password_enter_hint"
+		android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone"
+		/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"        
+        android:layout_margin="15dp">
+
+        <CheckBox
+            android:id="@+id/login_twitter_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:layout_gravity="center_vertical"        
+        />    
+        
+        <!-- 
+        android:background="@color/transparent"
+         -->
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/loginwithtwitter"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"        
+            />    
+            
+        <ImageButton
+            android:id="@+id/loginbutton_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:src="@drawable/twitter_newbird_blue_sm"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_margin="00dp"
+            android:padding="0dp"
+            android:gravity="center"
+            android:contentDescription="@string/contentDescription"
+            android:layout_gravity="center_vertical"        
+        />
+
+    </LinearLayout>
+		
+	
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+		android:gravity="center"
+	    android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+	    >
+
+		<Button
+			android:id="@+id/loginbutton_continue"
+			android:text="@string/continue_label"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content" 
+	        android:layout_margin="10dp" 
+    		android:gravity="center"
+			android:padding="10dp"
+	        android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+	        />
+	
+		<Button
+			android:id="@+id/loginbutton_cancel"
+			android:text="@string/cancel_label"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content" 
+	        android:layout_margin="10dp"
+    		android:gravity="center"
+			android:padding="10dp"
+	        android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+	        />
+
+	</LinearLayout>
+
+</LinearLayout>

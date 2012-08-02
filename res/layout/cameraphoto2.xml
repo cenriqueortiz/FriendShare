@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="10dp"
+	android:scrollbars="horizontal">
+
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/camera_view"
+        android:textSize="18sp"
+        android:layout_marginLeft="5dp"
+        />
+    
+		<Button
+			android:id="@+id/take_photo"
+			android:text="@string/take_photo"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_margin="10dp" 
+    		android:gravity="center"
+    		android:layout_gravity="center"
+			android:padding="10dp"
+	        android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+	        />
+
+		<LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+		    android:layout_margin="10dp"
+		    >
+				
+		    <SurfaceView android:id="@+id/surface"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+	        	        					
+</LinearLayout>

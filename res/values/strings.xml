@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcome to FriendShare</string>
+    <string name="app_name">FriendShare</string>
+    <string name="app_version">1.0</string>
+    <string name="intro">Capture photos and share with your friends.</string>
+    <string name="contentDescription"></string>
+    
+    <!--  Commands  -->
+    <string name="cmd_refresh">Refresh</string>
+    <string name="cmd_prefs">Preferences</string>
+
+    <!-- Login Info Group -->
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="continue_label">Continue</string>
+    <string name="username_enter_hint">Enter Username</string>
+    <string name="password_enter_hint">Enter Password</string>
+    <string name="please_login">Please Login</string>
+    <string name="camera_view">Camera View</string>
+    <string name="take_photo">Press to take Photo</string>
+    
+    <string name="twitter">Twitter</string>
+    <string name ="loginwithtwitter">Login with Twitter</string>
+    <string name="enter_username">Please enter a valid username</string>
+
+    <string name="search_hint">Search</string>
+    <string name="go">Go</string>
+    
+    <string name="please_wait">Please Wait"</string>
+    <string name="searching_twitter">Searching Twitter</string>
+    <string name="loading_twitter">Loading Home timeline</string>
+
+    <string name="title_twitter_list">Twitter List</string>
+    
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MAP_KEY">"0IDNEkAzSFT-WqOkh7Ny_Re29LYBxLPC_402N1g"</string>
+    <string name="TWITTER_CONSUMER_KEY">"Hkk9kjyZbfR4S3QZudVQ"</string>
+    <string name="TWITTER_CONSUMER_SECRET">"y0AomZjC4XUY2S2sB4mXT8K03pbzW6wUz72MPyhOuk"</string>
+    <string name="TWITTER_CALLBACK_URL">"/twitter-callback:///"</string>
+</resources>
